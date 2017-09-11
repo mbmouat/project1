@@ -1,0 +1,694 @@
+/*borders*/
+.border-top{
+  border-top: 1px solid;
+  border color:lightgrey;
+  width:80px;
+
+}
+
+.form1{
+
+   vertical-align: bottom;
+   margin-left: 750px;
+
+}
+
+#header{
+  background-color: #1f8be1;
+    height: 35px;
+  }
+
+#container1{
+  position:float;
+  margin-top: 15px;
+  margin-left: 950px;
+  margin-bottom: 15px;
+}
+
+.h1{
+  position:relative;
+  margin-top: 15px;
+  margin-left: 950px;
+}
+/*nav*/
+
+.customers-blue:hover {
+  background: url(images/sprites-final.png);
+  background-position: -2px -0px; width: 62px; height: 64px;
+}
+
+.dashboard-blue:hover{
+  background:url(images/sprites-final.png);
+  background-position:-2px -217px; width: 59px; height: 73px;
+}
+
+.analytics-blue:hover{
+  background:url(images/sprites-final.png);
+  background-position: -2px -360px; width: 58px; height: 66px;
+}
+
+.messages-blue:hover {
+  background:url(images/sprites-final.png);
+  background-poisiton: -2px -495px; width: 58px; height: 65px;
+}
+
+.promotions-blue:hover {
+  background:url(images/sprites-final.png);
+  background-position: -2px -633px; width: 58px; height: 69px;
+}
+
+.container1{
+  width: 100%; padding-top: 15px;
+}
+
+/*customers and contacts*/
+
+.square-contacts{
+  position:relative;
+  margin-top: -80;
+  margin-left: 4px;
+
+}
+
+.square-customers{
+  position:relative;
+  margin-top: -300px;
+  margin-left:250px;
+
+}
+
+.customers-contacts {
+  padding: 0 20px;
+  text-align: center;
+}
+.square {
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0, 0.45);
+  margin: 40px 35px 30px;
+}
+.square .person {
+  z-index: 1;
+  position: relative;
+  margin-top: -30px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.person-green{
+  position: absolute;
+  margin-top: -100px;
+  margin-left:60px;
+  height: 100px;
+
+}
+
+.square .person:before{
+  width: 100%;
+  font-size: 85px;
+  padding: 0;
+  margin: 0;
+
+}
+.square img {
+  margin: 15px 10px 10px;
+}
+
+.ribbon {
+background-color: #1f8be1;
+color:white;
+
+}
+
+.count-card .ribbon {
+  position: relative;
+  padding: 10px 0;
+  background-color: #2394ee;
+  z-index: 3;
+}
+.count-card .ribbon:before{
+  content: ' ';
+  position: absolute;
+  right: 100%;
+  top: calc(50% - 20px);
+  height: 40px;
+  width: 15px;
+
+}
+.count-card .ribbon:after{
+  content: ' ';
+  position: absolute;
+  left: 100%;
+  top: calc(50% - 20px);
+  height: 40px;
+  width: 15px;
+  transform: rotate(180deg);
+}
+.count-card .ribbon h4 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  margin: 0;
+}
+.count-card .ribbon h5 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  margin: 0;
+}
+
+
+
+
+
+.relative{position:relative; width:650px;}
+.absolute-text{position:absolute; bottom:40; font-size:20px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:10px 20px; width:100%; text-align:;}
+.absolute-text a{font-size:16px; color:#b92b27;}
+
+
+.bullet {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+
+
+
+    .rcorners1 {
+  text-align: left;
+  padding: 5px 20px;
+  background: #33cc66;
+  width: 98%;
+  border-radius: 5px;
+  padding:5px 5px 10px 5px;
+  color: white;
+}
+
+/*social media*/
+
+.p {
+    left: 40px;
+    top: 10px;
+}
+
+.navicons {
+  backgound: #1a4c74
+}
+
+
+/*gradients*/
+
+.grad {
+    height: 200px;
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e2e2e2, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e2e2e2, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e2e2e2, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e2e2e2, white); /* Standard syntax (must be last) */
+    padding: 10px 40px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grad1{
+  height:15px;
+  background:grey;
+  background: -webkit-linear-gradient(#e2e2e2, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e2e2e2, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e2e2e2, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e2e2e2, white); /* Standard syntax (must be last) */
+  padding: 10px 10px;
+  width: -600px;
+  border-radius: 5px;
+}
+
+
+
+/*tasks and recs*/
+
+.tiles {
+  margin: 0px 3px;
+  background-color: white;
+  padding-top: 15px;
+}
+
+.tasks h3, .recs {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  color: #3399ff;
+  margin-left: 5px;
+  display: inline;
+
+}
+
+.tasks ul, .recs ul {
+  list-style: none;
+  padding: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.tasks li:last-child {
+  border: none;
+}
+
+.tasks a:hover li, .recs a:hover li {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100);
+
+}
+.tasks a:hover, .recs a:hover {
+  text-decoration: none;
+}
+
+.tasks a:active li, .recs a:active li {
+  transform: scale(0.95);
+}
+
+
+.tasks .sprite-grey-settings {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+}
+
+
+.tasks .sprite-grey-settings:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.tag {
+  float: right;
+  display: inline;
+  vertical-align: super;
+  margin-right: 4px;
+}
+
+/*recomendations*/
+.recs h6{
+  text-align: left;
+	color:grey;
+}
+.recs h5{
+  color:grey;
+  text-align: left;
+}
+
+
+/*didyouknow*/
+.quote {
+  padding: 20px;
+}
+.quote-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+  background: #2498f4;
+  color: white;
+  align-items: center;
+}
+.quote-words {
+  margin: 15px 30px;
+}
+.quote-words h6 {
+  margin: 0 0 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.quote-words p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+.quote-arrow {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 25px;
+  background: white;
+  color: #ff9b13;
+  font-size: 36px;
+  cursor:pointer;
+  flex-grow: 0;
+}
+.quote-arrow:before {
+  transition: left 0.2s;
+}
+.quote-arrow.i-caret-left {
+  left: -3px;
+  border-radius: 0 50px 50px 0;
+}
+.quote-arrow.i-caret-left:before{
+  position: relative;
+  top: 7px;
+  left: -10px;
+}
+.quote-arrow.i-caret-left:hover:before{
+  left: -13px;
+}
+.quote-arrow.i-caret-right {
+  right: -3px;
+  border-radius: 50px 0 0 50px;
+}
+.quote-arrow.i-caret-right:before{
+  position: relative;
+  top: 7px;
+  left: -4px;
+}
+.quote-arrow.i-caret-right:hover:before{
+  left: -1px;
+}
+
+/*ads*/
+     .ads {
+       text-align: center;
+       background: #2498f4;
+       min-height: 80px;
+     }
+     .ad-card {
+       display: inline-block;
+       width: 280px;
+       height: 160px;
+       background: white;
+       margin: 30px 8px;
+       border-radius: 4px;
+       overflow: visible;
+       vertical-align: middle;
+       transition: transform 0.3s;
+     }
+
+     .ad-card.center img {
+       position: relative;
+       top: -11px;
+     }
+
+/* dropdown*/
+.dropbtn {
+    background-color: white;
+    color: #605f5f;
+    padding: 4px 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.dropbtn * {
+  display: inline;
+  margin: 12px;
+}
+.dropdown button {
+  padding: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+
+.analytics p {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #777777;
+  text-align: left;
+  line-height: 20px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p:hover {color: #3399ff;}
+.dropdown-content p:active {text-decoration: underline;}
+
+
+.analytics h2, h5 {
+  display: block;
+  color:#1f8be1;
+  text-align: left;
+
+}
+
+.activity {
+  border-right: 1px solid #cccccc;
+}
+
+.analytics h5 {
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: #999999;
+  display: inline;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+/*checkboxes*/
+.sm-box {
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  display: inline;
+  vertical-align: top;
+  text-align: left;
+  padding: 4px 6px 3px 4px;
+}
+
+.facebook{
+  background-color: #114570;
+}
+.twitter{
+  background-color:#2298f4;
+}
+
+.foursquare{
+  background-color:#3a599b;
+}
+
+.googleplus  {
+  background-color:#31cc66;
+}
+
+#social-margin {
+  margin-top: 15px;
+  margin-left: -18px;
+  margin-bottom: 15px;
+}
+/*footer*/
+
+.footerbar {
+  position: float;
+  width:1200px;
+  margin-left: -150px;
+  background: linear-gradient(to bottom, #fff, #eee);
+  font-family: "proxima-nova", sans-serif;
+  margin-top: 35px;
+}
+.footerbar:before {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  bottom: 100%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(100,100,100,0.1));
+}
+.footerbar .container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.foot-links {
+  order: 1;
+  flex-grow: 0;
+  padding: 14px;
+  list-style-type: none;
+  border-right: 1px solid #ddd;
+}
+.foot-links a{
+  display: inline-block;
+  list-style-type: none;
+  padding: 2px 5px 2px 10px;
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s;
+  border-left: 1px solid #ddd;
+}
+.foot-links a:first-of-type{
+  border-left: none;
+}
+.foot-links a:hover{
+  color: #2498f2;
+}
+.foot-notif {
+  order: 2;
+  flex-grow: 1;
+  padding: 12px;
+  border-right: 1px solid #ddd;
+}
+.foot-notif p{
+  margin: 0;
+  float: left;
+}
+.foot-notif a {
+  font-weight: bold;
+  color: #2498f2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.foot-notif a:hover {
+  color: #134670;
+}
+.foot-notif .i-caret-right{
+  display: block;
+  float: right;
+  position: relative;
+  top: 2px;
+  color: #2498f4;
+  height: 14px;
+  width: 22px;
+  transition: top 0.5s;
+}
+.foot-notif .i-caret-right:hover{
+  top: 0;
+}
+.foot-notif .i-caret-right:before {
+  position: relative;
+  font-size: 22px;
+  top: -7px;
+  transform: rotate(-90deg);
+}
+.foot-logout {
+  order: 3;
+  flex-grow: 0;
+  padding-left: 10px;
+  border-right: 1px solid #ddd;
+}
+.foot-logout .avatar-container{
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  padding: 3px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0, 0.45);
+}
+.foot-logout a {
+
+  display: inline-block;
+  margin: 16px 10px;
+  color: #2498f2;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.foot-logout a:hover {
+  color: #134670;
+}
+.foot-social {
+  order: 4;
+  flex-grow: 0;
+  padding: 16px 12px;
+  border-right: 1px solid #ddd;
+}
+.foot-social a {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-size: contain;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+.foot-social a:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background-size: contain;
+  background-position: 0 0;
+  border-radius: 2px;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.foot-social a:hover:after{
+  opacity: 1;
+}
+
+.s-facebook {
+  background: url(images/facebook-gray.png);
+}
+.s-facebook:after {
+  background: url(images/facebook-active.png);
+}
+.s-twitter {
+  background: url(images/twitter-gray.png);
+}
+.s-twitter:after {
+  background: url(images/twitter-active.png);
+}
+.s-foursquare {
+  background: url(images/foursquare-gray.png);
+}
+.s-foursquare:after {
+  background: url(images/foursquare-active.png);
+}
+.s-youtube {
+  background: url(images/youtube-gray.png);
+}
+.s-youtube:after {
+  background: url(images/youtube-active.png);
+}
+
+
+/* circle graphs*/
+
+.hoverinfo {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hoverinfo p {
+  display: none;
+  color: #000000;
+}
+
+.hoverinfo:hover p {
+  background-color: white(255, 255, 255, 0.7);
+  display: block;
+}
+
+.circlegraphs{
+  position: relative;
+    top: -350px;
+    left:-80px;
+}
